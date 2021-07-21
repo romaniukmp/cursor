@@ -14,8 +14,8 @@
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-top: 122px;
- 
+  margin-top: 115px;
+
 }
 .header-title {
   width: 445px;
@@ -36,7 +36,7 @@
   margin-bottom: 42px;
 }
 .header-icons {
-  margin-bottom: 113px;
+  margin-bottom: 110px;
 }
 .header-icons > img {
   margin-right: 25px;
@@ -49,8 +49,9 @@
 .form {
   display: flex;
   justify-content: space-between;
+  max-width: 1120px;
   width: 100%;
-  padding: 117px 165px 123px 176px;
+  margin: 117px 165px 123px 176px;
 }
 .info {
   display: flex;
@@ -98,6 +99,14 @@
 }
 .names > input {
   width: 255px;
+}
+
+.first-name {
+  margin-right: 7px;
+}
+
+.last-name {
+  margin-left: 7px;
 }
 
 .submit {
@@ -165,8 +174,18 @@
 }
 
 .media {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   margin-top: 15px;
+
 }
+
+.media-icons {
+  height: 15px;
+}
+
+
 
 .copyright {
   font-size: 12px;
