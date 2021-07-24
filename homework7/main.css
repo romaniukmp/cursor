@@ -15,6 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 145px;
+
 }
 .header-logo {
   margin-right: 121px;
@@ -38,12 +39,13 @@ nav {
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 15px;
   line-height: 160%;
   color: #212353;
   border: none;
-  background-image: url(./Vector74.svg);
+  cursor: pointer;
+  background-image: url(./Group56.svg);
   background-repeat: no-repeat;
   background-position: 90% center;
 }
@@ -52,8 +54,16 @@ a {
   margin-right: 40px;
 }
 .header-container {
+  position: relative;
+  left: -270px;
+  margin-bottom: 246px;
 }
-.header-image {
+.header-image { 
+  width: 885px;
+  height: 468px; 
+  position: absolute;
+  top: 96px;
+  left: 363px;
   
 }
 .header-text {
@@ -95,6 +105,7 @@ h1 {
   text-align: center;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 .pink-conteiner {
@@ -205,7 +216,7 @@ h3 {
     margin-bottom: 20px;
 }
 .button-block {
-    width: 87px;
+    width: 160px;
     height: 26px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500px ;
@@ -214,6 +225,10 @@ h3 {
     color: #212353;  
     border: none;
     background-color:#E5E5E5; 
+    cursor: pointer;
+    background-image: url(./Group56.svg);
+  background-repeat: no-repeat;
+  background-position: 90% center;
  }
  .reviews-container {
 width: 1118px;
@@ -276,12 +291,164 @@ margin-bottom: 150px;
     line-height: 180%;
     color: #4B5D68;
  }
- .slide {
-    width: 55px;
-    height: 10px;
+ .footer-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
  }
+ .slider-1 {
+  background-image: url(slide.svg);
+  background-repeat: no-repeat;
+  width: 55px;
+height: 10px;
+border: none;
+background-color:#9C69E2;
+ }
+ .slider-2 {
+  background-image: url(sl2.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 14px; 
+border: none;
+background-color:#9C69E2;
+}
+ .slider-3 {
+  background-image: url(sl1.svg);
+  background-repeat: no-repeat;
+ width: 20px;
+height: 14px;
+border: none;
+background-color:#9C69E2;
+}
  hr {
     width: 100%;
     background: #9C69E2;
     opacity: 0.2;
+    margin-bottom: 100px;
+ }
+.header-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer-title {
+  width: 405px;
+  height: 52px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  margin-bottom: 20px;
+}
+.footer-details {
+width: 584px;
+height: 29px;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+margin-bottom: 153px;
+}
+.footer-first-button {
+  width: 170px;
+  height: 60px;
+  background: #F063B8;
+  border-radius: 50px;
+  border: none;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 160%; 
+ color: #FFFFFF;
+ cursor: pointer;
+}
+.footer-secondary-button {
+  width: 210px;
+  height: 60px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+border: none;
+cursor: pointer;
+background-image: url(./Group56.svg);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+h5 {
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+margin-bottom: 30px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin-bottom: 93px;
+}
+.conteiner-contacts {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 65px;
+}
+.footer-logo {
+  margin-right: 20px;
+}
+.contacts-title {
+width: 153px;
+height: 30px;
+font-weight: 700;
+font-size: 20px;
+line-height: 160%;
+color: #212353;
+}
+.address {
+width: 300px;
+height: 65px;
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+color: #212353;
+margin-bottom: 10px;
+}
+.mail {
+  width: 300px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #212353;
+}
+.phone {
+  width: 300px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #212353;
+}
+li {
+font-size: 16px;
+line-height: 250%;
+color: #212353;
+}
+ .last-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #212353;
+  letter-spacing: 0.01em;
+  font-size: 12px;
+  line-height: 22px;
+ }
+ .last-paragraph {
+  width: 360px;
+  height: 50px;
+  font-size: 12px;
+  line-height: 180%;
+  color: #212353;
  }
